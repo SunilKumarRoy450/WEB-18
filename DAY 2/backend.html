@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend</title>
+    <style>
+        #Navbar{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: aquamarine;
+            font-size: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="Navbar">
+        <div><a href="navbar.html">Navbar</a></div>
+        <div><a href="backend.html">Backend</a></div>
+        <div><a href="fronted.html">Fronted</a></div>
+    </div>
+</body>
+</html>
+<script>
+                  var investors =[{image:"https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg",
+            name:"Vijay Shekhar Sharma",
+            position:"Founder & CEO",
+            logo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"},
+            {image:"https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png",
+            name:"Kunal Shah",
+            position:"Founder",
+            logo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/cred_0a47d7b4f8.png"},
+            {image:"https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg",
+            name:"Amrish Rau",
+            position:"CEO",
+            logo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/pine_labs_0aa2407434.png"},
+            {image:"https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg",
+            name:"Sampad Swain",
+            position:"Co-Founder & CEO",
+            logo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png"}]
+
+            localStorage.setItem("investorDetails",JSON.stringify(investors))
+
+</script>
